@@ -54,7 +54,8 @@ seamlessly return the results back to the user from the database without having 
 #### Method 1: Plaid API 
 Language: Python, NodeJS 
 
-We are going to use the API gateways that Plaid provided. By following this tutorial, I was able to get bank transactions: 
+We are going to use the API gateways that Plaid provided. By following [this tutorial](https://dashboard.plaid.com/overview/sandbox), 
+I was able to get bank transactions: 
 <p align="center">  
     <img src="./images/transaction.png" width="310" height="384"> 
 </p>
