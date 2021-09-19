@@ -1,4 +1,9 @@
 # Budget Web App 
+Author: Jennifer Zeng
+
+Contributors: Andy Huang, Alan Chen, Daanyal Akhtar, Michelle Tang, Sebastian Lopez, Tomer Yaakov
+
+[Design Doc](https://docs.google.com/document/d/1yhA75AGxCYOdqQVFb3dU0rH4Cb3hcuQu0ZmYiSqXpFA/edit#heading=h.wmr0r83w17jn)
 
 ## Motivation 
 Online transactions have become increasingly popular with the advent of ecommerce and online banking. 
@@ -22,8 +27,12 @@ Thus, this is the problem we want to solve with customizable categories.
 
 
 ## Audience 
-We target those who want to have a detailed view of their spending and want to gain insights into their spending habits. 
-
+We target those who want to have a detailed view of their spending, gain insights into their spending habits, and cultivate 
+a budgeting mindset. More specifically, young people fresh out of high school/college are one of our target groups. During this time, 
+they transition from spending parents' money to making money on their own. Previously, they may spend purely based on their likings wihtout 
+thinking about if the money is well-spent or the cost-effectiveness of such spending. Our app exists to cultivate an awareness of moeny and 
+budgeting. By providing them with customizable categories, we enable our audience to see detailed breakdowns of their spending, 
+which will in turn help them learn more about their spending habits and invoke their reflections about money. 
 
 ## Implementation 
 
@@ -88,3 +97,13 @@ The reason is that Sandbox environment doesn’t use real-world data. Regarding 
 2. To use actual bank account, modify your env to ```'development'``` in .env file of your directory 
 3. You may encounter an SSL certificate error. To solve this error, follow [this post](https://stackoverflow.com/questions/50236117/scraping-ssl-certificate-verify-failed-error-for-http-en-wikipedia-org). 
 
+### Justification for scope
+This project is stackable in nature, meaning that we can make it easier or more complex depending on the progress. 
+
+I envision the frontend will have two pages, one for users to input their bank account information and the other 
+one for displaying transactions and customize their categories. This is the basic functionality. To make it more complex,
+we can add other navigation tabs that can navigate to other functionalities, like investment, savings, and etc. 
+
+For the backend, it could be as simple as querying remote APIs. If we want it to be more performant, we can add the background scheduler
+as I described in the implementation section. Background scheduler periodically pings remote servers to update the database. Once users make
+query, we can directly return whatever is in the database to them, without having API query delay. 
