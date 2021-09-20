@@ -37,7 +37,7 @@ and database (mongoDB) components. The overall architecture is illustrated above
 
 The frontend serves as an entry point for users to select their bank and enter bank account info 
 (here we can use the interface that Plaid provides). This information is passed to the backend, 
-which then queries the database directly and returns results from the database. At the same time, the backend can run a background scheduler to periodically query APIs to update the database. The goal of adding the background scheduler is to hide API latency from users, since queries can take time to transfer data to the front end.
+which then queries the database directly and returns results. The backend may also concurrentlyrun a background scheduler to periodically query APIs to update the database. The goal of adding the background scheduler is to hide API latency from users, since queries can take time to transfer data to the front end.
 
 However, one concern is that it can be difficult to pre-populate users’ bank information ahead of time as there is a waiting period between users' entry of bank information and the actual API fetch (i.e. input of bank information is required for API call). Ultimately, by having a database as a cache, a user can repeatedly query the backend rapidly and obtain feedback in a relatively short time without the need for an API query.
 
