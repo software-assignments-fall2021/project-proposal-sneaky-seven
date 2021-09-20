@@ -1,7 +1,7 @@
 # Budget Web App 
 Author: Jennifer Zeng
 
-Contributors: Alan Chen, Andy Huang, Daanyal Akhtar, Michelle Tang, Sebastian Lopez, Tomer Yaakov
+Contributors: Alan Chen, Andy Huang, Daanyal Akhtar, Michelle Tang, Sebastian Lopez, Tomer Yaakov, Neev Mittal
 
 [Design Doc](https://docs.google.com/document/d/1yhA75AGxCYOdqQVFb3dU0rH4Cb3hcuQu0ZmYiSqXpFA/edit#heading=h.wmr0r83w17jn)
 
@@ -108,3 +108,6 @@ we can add other navigation tabs that can navigate to other functionalities, lik
 For the backend, it could be as simple as querying remote APIs. If we want it to be more performant, we can add the background scheduler
 as I described in the implementation section. Background scheduler periodically pings remote servers to update the database. Once users make
 query, we can directly return whatever is in the database to them, without having API query delay. 
+
+
+
