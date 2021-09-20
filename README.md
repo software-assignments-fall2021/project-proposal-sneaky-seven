@@ -54,7 +54,7 @@ I was able to get bank transactions:
 </p>
 
 More thoughts on Plaid: 
-Plais is essentially a middle layer - one where all connections to a bank to have been established, and it can fetch relevant information including transactions, savings, etc. Plaid APIs provide a gateway to utilize its interface (i.e. the starting point where users are prompted to select a bank). One benefit of this API is that the only requirements are the bank name and the bank account information - the fetching of results is handled by Plaid.
+Plais is essentially a middle layer - one where all connections to a bank to have been established and it can fetch relevant information including transactions, savings, etc. Plaid APIs provide a gateway to utilize its interface (i.e. the starting point where users are prompted to select a bank). One benefit of this API is that the only requirements are the bank name and the bank account information - the fetching of results is handled by Plaid.
 
 
 #### Method 2: Mint API 
