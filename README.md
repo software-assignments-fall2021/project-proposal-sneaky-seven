@@ -1,7 +1,7 @@
 # Budget Web App 
 Author: Jennifer Zeng
 
-Contributors: Andy Huang, Alan Chen, Daanyal Akhtar, Michelle Tang, Sebastian Lopez, Tomer Yaakov
+Contributors: Alan Chen, Andy Huang, Daanyal Akhtar, Michelle Tang, Sebastian Lopez, Tomer Yaakov
 
 [Design Doc](https://docs.google.com/document/d/1yhA75AGxCYOdqQVFb3dU0rH4Cb3hcuQu0ZmYiSqXpFA/edit#heading=h.wmr0r83w17jn)
 
@@ -29,14 +29,14 @@ Thus, this is the problem we want to solve with customizable categories.
 ## Audience 
 We target those who want to have a detailed view of their spending, gain insights into their spending habits, and cultivate 
 a budgeting mindset. More specifically, young people fresh out of high school/college are one of our target groups. During this time, 
-they transition from spending parents' money to making money on their own. Previously, they may spend purely based on their likings wihtout 
-thinking about if the money is well-spent or the cost-effectiveness of such spending. Our app exists to cultivate an awareness of moeny and 
+they transition from spending parents' money to making money on their own. Previously, they may spend purely based on their likings without 
+thinking about if the money is well-spent or the cost-effectiveness of such spending. Our app exists to cultivate an awareness of money and 
 budgeting. By providing them with customizable categories, we enable our audience to see detailed breakdowns of their spending, 
 which will in turn help them learn more about their spending habits and invoke their reflections about money. 
 
 ## Implementation 
 
-### Architecutre 
+### Architecture 
 <p align="center">  
     <img src="./images/architecture.png" width="568" height="242"> 
 </p>
