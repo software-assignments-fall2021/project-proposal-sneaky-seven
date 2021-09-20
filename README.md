@@ -85,9 +85,9 @@ This project is stackable in nature. That is, it can be simplified or made more 
 
 Thus, it may be easily adaptable to dynamic circumstances. 
 
-As a preliminary, the frontend will consist of two pages, input for users' bank information, and displaying transactions/customizing categories respectively. While this is basic functionality, a more complex vision would entail the addition of other navigation tabs which will guide the user to other functionalities such as investment, savings, etc. 
+As a preliminary, the frontend will consist of two pages, input for users' bank information, and displaying transactions/customizing categories respectively. While this is basic functionality, a more complex vision could entail the addition of other navigation tabs which will guide the user to other functionalities such as investment, savings, etc. 
 
-The backend may be as simple as querying the remote API, or perhaps more complex with a background scheduler as mentioned previously. The presence of a background scheduler would most certainly boost performance, as it would periodically ping remote servers to update the database, eliminating the need for another API query and subsequent delay. However, it is absolute not necessary and can be saved as a bonus.
+The backend may be as simple as querying the remote API, or more complex with a background scheduler as mentioned previously. While the presence of a background scheduler would most certainly boost performance, it is not essential to the application and can be saved as a bonus.
 
 Ultimately, the scope of this project is suitable for a scrum team with 4-6 programmers as both the front end and the back end could take equally the same time and same amount of effort, depending on progress. The  front-end and back-end are sophisticated enough to warrant a high degree of self-learning and learning curve, but not so demanding such that it is not within the realm of possibility for a semester-long proejct.
 
