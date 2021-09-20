@@ -6,7 +6,7 @@ Contributors: Alan Chen, Andy Huang, Daanyal Akhtar, Michelle Tang, Sebastian Lo
 [Design Doc](https://docs.google.com/document/d/1yhA75AGxCYOdqQVFb3dU0rH4Cb3hcuQu0ZmYiSqXpFA/edit#heading=h.wmr0r83w17jn)
 
 ## Motivation 
-Online transactions have become increasingly popular with the advent of ecommerce and online banking. Subsequently, budget management naturally shifts from paper and books to online applications. A good budgeting can help elevate understanding of income and spending, resulting in higher control over finance.
+Online transactions have become increasingly popular with the advent of ecommerce and online banking. Subsequently, budget management naturally shifts from paper and books to online applications. Good budgeting can help elevate understanding of income and spending, resulting in higher control over finance.
 
 Typically, budgeting apps work by connecting a user to a bank account and credit cards to automatically download transactions and categorize their spending to match the budget they choose. However, one limitation of most current budget apps is that they don’t offer customers the option to customize categories. This is the problem we will address in this product. 
 Besides providing category suggestions, customers can customize and detail categories according to their preferences. This will allow for both the presence of "intelligent" suggestions per say, as well as user-defined categories in the event that more accuracy is required/desired.
@@ -16,13 +16,13 @@ Besides providing category suggestions, customers can customize and detail categ
 As mentioned in Motivation, one customer pain point is that most budget apps don’t offer 
 the option to customize categories. The lack of customization results in lower accuracy in 
 categorizing transactions. For example, on most budget apps, transactions at CVS are often 
-categorized as health, fitness, or medicine. While CVS as a merchant is categorized as a pharmacy, merchandise from CVS scopes much further than simply its default-categorization, such as food, drinks, and other household items. This of course could be applied to other chain stores which repeatedly are categorized by default. Thus, the principle problem of lack of customization for both individual necessity and overall accuracy is the problem we want to solve.
+categorized as health, fitness, or medicine. While CVS as a merchant is categorized as a pharmacy, merchandise from CVS scopes much further than simply its default-categorization, such as food, drinks, and other household items. This of course could be applied to other chain stores which may be categorized by default. Thus, the principle problem of lack of customization for both individual necessity and overall accuracy is the problem we want to solve.
 
 
 ## Audience 
 We target those who want to have a detailed view of their spending, gain insights into their spending habits, and cultivate 
 a budgeting mindset. Therefore, a principle target-audience is young people fresh out of high school/college. During this time, 
-students transition from spending parents' money to making money independently. While they may have spend purely based on their likings in the past, that spending was likely not influenced by thoughts of cost-effectiveness or true necessity. Our app exists to cultivate such awareness of money and budgeting. We aim to do this specifically by providing them with customizable categories. By doing this, we enable our audience to see detailed breakdowns of their spending, 
+students transition from spending parents' money to making money independently. While they may have spent purely based on their likings in the past, that spending was likely not influenced by thoughts of cost-effectiveness or true necessity. Our app exists to cultivate such awareness of money and budgeting. We aim to do this specifically by providing them with customizable categories. By doing this, we enable our audience to see detailed breakdowns of their spending, 
 which then helps them learn more about their spending habits and invoke their reflections about money and financial responsibility. 
 
 ## Implementation 
